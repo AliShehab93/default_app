@@ -362,7 +362,7 @@ class SignUpFormState extends State<SignUpForm> {
                         size: widget.width / 15,
                         color: Colors.deepPurpleAccent,
                       ),
-                      onPressed: (){},
+                      onPressed: () => _selectDate(context),
                     ),
                   ],
                 ),
